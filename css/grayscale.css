@@ -186,12 +186,6 @@ a:focus, a:hover {
 
 .signup-section {
   padding: 10rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/slide.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
 }
 
 .signup-section .form-horizontal input {
@@ -265,11 +259,6 @@ footer {
   padding: 2rem 0;
 }
 
-#vzads
-{
-    display: none;
-}
-
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 0;
@@ -319,13 +308,6 @@ footer {
   }
 }
 
-@media (min-width: 768px) {
-  .header h1 {
-    font-size: 4rem;
-    line-height: 4rem;
-  }
-}
-
 @media (min-width: 992px) {
   .header {
     height: 100vh;
@@ -358,5 +340,28 @@ footer {
     border-width: .25rem;
     width: 30%;
   }
+}
+
+@media (min-width: 768px) {
+  .header h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
+
+@media (max-width: 576px)
+{
+
+  .header h1
+  {
+    font-size: 30px;
+    letter-spacing: 5px;
+  }
+
+  .linea
+  {
+    width: 6rem; 
+  }
+
 }
 
